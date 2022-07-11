@@ -1,0 +1,88 @@
+
+.box{
+width: 90px;
+height: 45px;
+border: 1px solid black;
+font-size: 24px;
+font-family: 'Times New Roman',serif;
+font-weight: bold;
+margin-top: 0;
+position: relative;
+float: right;
+top: 0;
+margin-left: 100%;
+}
+
+.generalbox, .finalbox{
+width: 22.5%;
+height: 200px;
+border: 1px solid black;
+background-color:grey;
+margin-left: 1%;
+padding-left: 8px;
+}
+
+
+h2 {
+	background-color: #FFD6EF;
+	text-align: center;
+padding-top: 1.5%;
+}
+h3 {
+	background-color: #B5EAD7;
+	text-align: center;
+	padding-top: 1.5%;
+}
+h4 {
+	background-color: #C7CEEA;
+	text-align: center;
+	padding-top: 1.5%;
+}
+
+p {
+	font-family: 'Times New Roman',serif;
+    font-weight: bold;
+}
+
+
+@media (min-width: 992px) {
+	div{
+float:left ;
+background-color: gray;
+border: 1px solid black;
+height: 200px;
+width: 25%;
+margin-right: 5%;
+}
+
+.generalbox{
+margin-left: 5%;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	div{
+		float:left ;
+    margin-right: 8%;
+}
+.generalbox{
+	height: 250px;
+width: 35%;
+	margin-left: 5%
+}
+.finalbox{
+	margin-top: 5%;
+margin-left: 5%;
+width: 83%;
+height: 250px;
+}}
+
+@media (max-width: 767px) {
+	.generalbox,.finalbox{
+height: 150px;
+width: 80%;
+margin-right: 5%;
+margin-left: 5%;
+margin-top: 15px;
+}
+}
